@@ -1,0 +1,112 @@
+
+* {
+    box-sizing: border-box;
+    
+}
+
+body {  
+     background-color: #1d1c1c;
+     text-align: center;
+     margin: 0;
+    
+}
+
+.titulo {
+    display: inline-block;
+    border-bottom: 4px solid;
+    margin-bottom: 0.1em;
+    font-family: 'Roboto Slab', sans-serif;
+    color: #F0FFE9;
+}
+
+
+
+h4 {
+    font-family: 'Inter', sans-serif;
+    color: #F0FFE9;
+    
+}
+
+ .Oppenheimer {
+    width: 600px;
+    height: 400px;
+    border: 1px solid white;
+    transition: 1s;
+    cursor: pointer;
+ }
+
+ .Oppenheimer:hover {
+    width: 700px;
+    height: 450px;
+ }
+
+.biografia {
+    margin-bottom: 50px;
+}
+
+    
+
+.subtitulo1 {
+    display: inline-block;
+    font-family: 'Roboto Slab', sans-serif;
+    color: #F0FFE9;
+    border-bottom: 4px solid;
+}
+
+ p {
+    font-family: 'Playfair Display', serif;
+    color: #DEE8D8;
+ }
+
+
+.proyecto {
+    margin-bottom: 50px;
+}
+
+
+.Manhattan {
+    border: 1px solid white;
+    height: 300px;
+    width: 250px;
+    float: right;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+
+.Manhattan:hover {
+    
+    width: 280px;
+    height: 320px;
+}
+
+
+.subtitulo2 {
+    display: inline-block;
+    font-family: 'Roboto Slab', sans-serif;
+    color: #F0FFE9;
+    border-bottom: 4px solid;
+}    
+
+.Japan {
+    border: 1px solid white;
+    float: left;
+    height: 300px;
+    width: 250px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.Japan:hover {
+    height: 330px;
+    width: 280px;
+}
+
+
+footer {
+    display: block;
+    background-color: #DDD1D1;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    padding: 10px;    
+}
